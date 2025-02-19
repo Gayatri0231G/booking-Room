@@ -113,12 +113,10 @@
   
   
   /* Content */
-  .suite-content {
-    padding: 15px;
-  }
   
-  /* Title & Price */
-  h2 {
+  
+  
+  /* h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -132,7 +130,7 @@
     font-weight: bold;
   }
   
-  /* Location */
+
   .location {
     font-size: 14px;
     color: gray;
@@ -142,7 +140,7 @@
     margin: 5px 0;
   }
   
-  /* Suite Info */
+  
   .suite-info {
     display: flex;
     gap: 10px;
@@ -154,8 +152,80 @@
     display: flex;
     align-items: center;
     gap: 5px;
+  } */
+  .suite-card {
+    background: white;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: left;
+    font-family: Arial, sans-serif;
   }
   
+  .suite-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #8a6d3b; /* Gold color */
+  }
+  
+  .suite-price {
+    color: #8a6d3b;
+  }
+  
+  .suite-location {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #64748b;
+    margin: 6px 0;
+  }
+  
+  .icon {
+    margin-right: 5px;
+    color: #8a6d3b;
+  }
+  
+  .suite-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .suite-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .high-season {
+    color: #009688;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+    background: #f5c518;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  
+  .star-icon {
+    margin-right: 4px;
+  }
+  
+  .suite-content {
+    padding: 15px;
+  }
   /* Accommodations */
   .accommodations {
     display: flex;

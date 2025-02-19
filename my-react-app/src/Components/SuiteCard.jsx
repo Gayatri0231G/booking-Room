@@ -3,7 +3,8 @@ import "./SuiteCard.css";
 import { FaRegBookmark } from "react-icons/fa";
 // import { Coffee, ArrowRight } from "lucide-react";
 import { FaMugHot, FaArrowRight } from "react-icons/fa";
-import { FaArrowLeft, FaWifi, FaBed, FaWineGlass, FaHome, FaTv, FaDoorClosed, FaMapMarkerAlt, FaRulerCombined, FaShower, FaUser } from "react-icons/fa";
+import { FaMapMarkerAlt, FaUsers, FaBed, FaRulerCombined, FaStar } from "react-icons/fa";
+import { FaArrowLeft, FaWifi, FaWineGlass, FaHome, FaTv, FaDoorClosed,  } from "react-icons/fa";
 
 // import { FaWifi, FaBed, FaWineGlass, FaHome, FaTv, FaDoorClosed, FaMapMarkerAlt, FaRulerCombined, FaShower, FaUser } from "react-icons/fa";
 
@@ -28,8 +29,8 @@ const SuiteCard = () => {
     </button> 
       </div>
 
-      <div className="suite-content">
-        <h2>Suite <span className="price">$160</span></h2>
+      
+        {/* <h2>Suite <span className="price">$160</span></h2>
         <p className="location"><FaMapMarkerAlt /> Viana do Castelo, Portugal</p>
 
         <div className="suite-info">
@@ -37,8 +38,29 @@ const SuiteCard = () => {
           <span><FaBed /> 2+2</span>
           <span><FaShower /> 1</span>
           <span><FaRulerCombined /> 53.75 sqm</span>
-        </div>
-
+        </div> */}
+        <div className="suite-card">
+      <div className="suite-header">
+        <h2 className="suite-title">Suite</h2>
+        <h2 className="suite-price">$160</h2>
+      </div>
+      <p className="suite-location">
+        <FaMapMarkerAlt className="icon" /> Viana do Castelo, Portugal
+      </p>
+      <div className="suite-details">
+        <span><FaUsers className="icon" /> 3</span>
+        <span><FaBed className="icon" /> 2+2</span>
+        <span><FaBed className="icon" /> 1</span>
+        <span><FaRulerCombined className="icon" /> 53.75 sqm</span>
+      </div>
+      <div className="suite-footer">
+        <span className="high-season">High season</span>
+        <span className="rating">
+          <FaStar className="star-icon" /> 4.9
+        </span>
+      </div>
+    </div>
+        <div className="suite-content">
         <div className="accommodations">
           <FaWifi /> <FaBed /> <FaWineGlass /> <FaHome /> <FaTv /> <FaDoorClosed />
         </div>
