@@ -28,56 +28,13 @@ const SuiteCard = () => {
       <span>Take a 360° tour of the suite.</span>
       <FaArrowRight className="icon1" />
     </button> 
-      </div>
+  </div>
 
-      
-        {/* <h2>Suite <span className="price">$160</span></h2>
-        <p className="location"><FaMapMarkerAlt /> Viana do Castelo, Portugal</p>
-
-        <div className="suite-info">
-          <span><FaUser /> 3</span>
-          <span><FaBed /> 2+2</span>
-          <span><FaShower /> 1</span>
-          <span><FaRulerCombined /> 53.75 sqm</span>
-        </div> */}
-        {/* <div className="suite-content">
-        <div className="suite-card">
-      <div className="suite-header">
-        <h2 className="suite-title">Suite</h2>
-        <h2 className="suite-price">$160</h2>
-      </div>
-      <p className="suite-location">
-        <FaMapMarkerAlt className="icon" /> Viana do Castelo, Portugal
-      </p>
-      <div className="suite-details">
-        <span><FaUsers className="icon" /> 3</span>
-        <span><FaBed className="icon" /> 2+2</span>
-        <span><FaBed className="icon" /> 1</span>
-        <span><FaRulerCombined className="icon" /> 53.75 sqm</span>
-      </div>
-      <div className="suite-footer">
-        <span className="high-season">High season</span>
-        <span className="rating">
-          <FaStar className="star-icon" /> 4.9
-        </span>
-      </div>
-    </div>
-        
-        <div className="accommodations">
-          <FaWifi /> <FaBed /> <FaWineGlass /> <FaHome /> <FaTv /> <FaDoorClosed />
-        </div>
-
-        <p className="details">
-          Sophisticated and cozy, these suites were designed to envelop your senses, enabling you to relax and enjoy a complete experience.
-        </p>
-
-        <button className="book-btn">Book the room</button>
-      </div> */}
-      <div className="suite-container">
+  <div className="suite-container">
       
       {/* Suite Content in One Box */}
-      <div className="suite-box">
-        <h2 className="suite-title">
+      {/* <div className="suite-box"> */}
+        {/* <h2 className="suite-title">
           Suite <span className="price">$160 <small>High season</small></span>
         </h2>
         
@@ -85,13 +42,14 @@ const SuiteCard = () => {
           <FaMapMarkerAlt /> Viana do Castelo, Portugal
         </p>
 
-        {/* Suite Info */}
+        
         <div className="suite-info">
           <span><FaUser /> 3</span>
           <span><FaBed /> 2+2</span>
           <span><FaShower /> 1</span>
           <span><FaRulerCombined /> 53.75 sqm</span>
-        </div>
+        </div> */}
+        
 
         {/* Accommodations */}
         <h3 className="accommodation-title">Accommodations</h3>
@@ -111,8 +69,8 @@ const SuiteCard = () => {
 
         {/* Book Button */}
         <button className="book-btn">Book the room</button>
-      </div>
-    </div>
+      
+    </div>  
   
       
     </div>
