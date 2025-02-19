@@ -2,9 +2,10 @@ import React from "react";
 import "./SuiteCard.css";
 import { FaRegBookmark } from "react-icons/fa";
 // import { Coffee, ArrowRight } from "lucide-react";
+import { FaWifi, FaBed, FaWineGlass, FaHome, FaTv, FaDoorClosed, FaMapMarkerAlt, FaRulerCombined, FaShower, FaUser } from "react-icons/fa";
+
 import { FaMugHot, FaArrowRight } from "react-icons/fa";
-import { FaMapMarkerAlt, FaUsers, FaBed, FaRulerCombined, FaStar } from "react-icons/fa";
-import { FaArrowLeft, FaWifi, FaWineGlass, FaHome, FaTv, FaDoorClosed,  } from "react-icons/fa";
+import { FaArrowLeft,} from "react-icons/fa";
 
 // import { FaWifi, FaBed, FaWineGlass, FaHome, FaTv, FaDoorClosed, FaMapMarkerAlt, FaRulerCombined, FaShower, FaUser } from "react-icons/fa";
 
@@ -23,7 +24,7 @@ const SuiteCard = () => {
         <button className="tour-btn">Take a 360° tour of the suite</button>
         </div> */}
          <button className="tour-button">
-      <FaMugHot className="icon" />
+      <FaMugHot className="icons" />
       <span>Take a 360° tour of the suite.</span>
       <FaArrowRight className="icon1" />
     </button> 
@@ -39,6 +40,7 @@ const SuiteCard = () => {
           <span><FaShower /> 1</span>
           <span><FaRulerCombined /> 53.75 sqm</span>
         </div> */}
+        {/* <div className="suite-content">
         <div className="suite-card">
       <div className="suite-header">
         <h2 className="suite-title">Suite</h2>
@@ -60,7 +62,7 @@ const SuiteCard = () => {
         </span>
       </div>
     </div>
-        <div className="suite-content">
+        
         <div className="accommodations">
           <FaWifi /> <FaBed /> <FaWineGlass /> <FaHome /> <FaTv /> <FaDoorClosed />
         </div>
@@ -70,7 +72,49 @@ const SuiteCard = () => {
         </p>
 
         <button className="book-btn">Book the room</button>
+      </div> */}
+      <div className="suite-container">
+      
+      {/* Suite Content in One Box */}
+      <div className="suite-box">
+        <h2 className="suite-title">
+          Suite <span className="price">$160 <small>High season</small></span>
+        </h2>
+        
+        <p className="location">
+          <FaMapMarkerAlt /> Viana do Castelo, Portugal
+        </p>
+
+        {/* Suite Info */}
+        <div className="suite-info">
+          <span><FaUser /> 3</span>
+          <span><FaBed /> 2+2</span>
+          <span><FaShower /> 1</span>
+          <span><FaRulerCombined /> 53.75 sqm</span>
+        </div>
+
+        {/* Accommodations */}
+        <h3 className="accommodation-title">Accommodations</h3>
+        <div className="accommodations">
+          <div className="accommodation-item"><FaWifi /><span>Wi-Fi</span></div>
+          <div className="accommodation-item"><FaBed /><span>King size bed</span></div>
+          <div className="accommodation-item"><FaWineGlass /><span>Minibar</span></div>
+          <div className="accommodation-item"><FaHome /><span>Sea view balcony</span></div>
+          <div className="accommodation-item"><FaTv /><span>Digital safe</span></div>
+          <div className="accommodation-item"><FaDoorClosed /><span>Soundproof windows</span></div>
+        </div>
+
+        {/* Description */}
+        <p className="details">
+          Sophisticated and cozy, these suites were designed to envelop your senses, enabling you to free your mind, relax and enjoy a complete experience.
+        </p>
+
+        {/* Book Button */}
+        <button className="book-btn">Book the room</button>
       </div>
+    </div>
+  
+      
     </div>
   );
 };

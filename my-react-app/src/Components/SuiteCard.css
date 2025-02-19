@@ -58,18 +58,6 @@
   } */
 
   .tour-button {
-    /* position: absolute;
-    bottom: 50px;
-    left: 30px;
-    background: rgb(8, 63, 8);
-    color: #fff;
-    border: none;
-    width: 240px;
-    height: 30px;
-  
-    border-radius: 15px;
-    font-size: 11px;
-    cursor: pointer; */
     display: flex;
     position: absolute;
     bottom: 50px;
@@ -78,23 +66,19 @@
     gap: 10px;
     background-color: rgb(40, 77, 40); 
     color: white;
-    /* padding: px px; */
     width: 260px;
     height: 35px;
     border: none;
     border-radius: 999px; 
     font-size: 12px;
     font-weight: 500;
-    /* cursor: pointer; */
-    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
-    /* transition: background 0.3s ease; */
   }
   
   .tour-button:hover {
     background-color: rgb(40, 77, 40); /* Slightly darker teal */
   }
   
-  .icon {
+  .icons {
     /* display: flex-start; */
     /* vertical-align: left; */
     margin-left: 5px;
@@ -153,12 +137,16 @@
     align-items: center;
     gap: 5px;
   } */
-  .suite-card {
+  /* .suite-card {
     background: white;
-    padding: 16px;
+   
+    bottom: 10px;
+   
+    padding: 5px;
     border-radius: 12px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    width: 280px;
+    width: 250px;
+    
     text-align: left;
     font-family: Arial, sans-serif;
   }
@@ -169,7 +157,8 @@
     align-items: center;
     font-size: 18px;
     font-weight: bold;
-    color: #8a6d3b; /* Gold color */
+    color: #8a6d3b; 
+    margin-bottom: 0px;
   }
   
   .suite-price {
@@ -181,7 +170,8 @@
     align-items: center;
     font-size: 14px;
     color: #64748b;
-    margin: 6px 0;
+    margin: 0;
+    line-height: 0.0000000001;
   }
   
   .icon {
@@ -224,9 +214,10 @@
   }
   
   .suite-content {
-    padding: 15px;
+    padding: 10px;
+    
   }
-  /* Accommodations */
+
   .accommodations {
     display: flex;
     gap: 10px;
@@ -236,12 +227,12 @@
   }
   
   /* Details */
-  .details {
+  /* .details {
     font-size: 14px;
     color: #555;
   }
   
-  /* Book Button */
+
   .book-btn {
     width: 100%;
     background: #d4a373;
@@ -252,5 +243,114 @@
     cursor: pointer;
     font-weight: bold;
     margin-top: 10px;
-  }
+  }  */
+/* Container */
+/* .suite-container {
+  width: 360px;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+} */
+
+/* Suite Box (Light Background & Rounded Corners) */
+.suite-box {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title and Price */
+.suite-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.price {
+  background: #f4c430;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.price small {
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+  color: gray;
+}
+
+/* Location */
+.location {
+  font-size: 14px;
+  color: gray;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 5px 0;
+}
+
+/* Suite Info */
+.suite-info {
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.suite-info span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Accommodations */
+.accommodation-title {
+  font-size: 16px;
+  margin-top: 15px;
+  color: #333;
+}
+
+.accommodations {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.accommodation-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #555;
+}
+
+/* Details */
+.details {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Book Button */
+.book-btn {
+  width: 100%;
+  background: #d4a373;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+  
   
